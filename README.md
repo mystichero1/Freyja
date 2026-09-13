@@ -1,7 +1,7 @@
 # Freyja✨
 ## Samsung Flash Tool into a android app.
 
-**Freyja** is a **Samsung Flashing Tool** specifically made for flashing a Samsung device from another android device.
+**Freyja** is a **Samsung Flashing Tool** specifically made for flashing a custom ROM or recovery onto a Samsung from another android device.
 
 ## About Freyja
 **Freyja** is designed to be a open-source app just like her older brother's Odin and Heimdall, in the past we've seen Odin (specifically made for **Windows**) and we've seen Heimdall (porting Odin to **Linux**). I've used Heimdall's backend code (mostly C++) to implement the logic towards Freyja to make the project a little bit more easy.
