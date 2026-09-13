@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="12dp">
+
+    <!-- Top Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F R E Y J A"
+        android:textColor="#00E5FF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
+
+    <!-- Status Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1E1E1E"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+        
+        <View
+            android:id="@+id/statusDot"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@android:color/holo_red_light"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID:COM Scanning for devices..."
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- Slot Selection Table Layout (Direct Partition Flags) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <!-- BOOT Slot -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="4dp">
+            <Button android:id="@+id/btnBoot" android:layout_width="110dp" android:layout_height="40dp" android:text="--BOOT" android:backgroundTint="#4A148C" android:textColor="#FFFFFF" android:textSize="11sp"/>
+            <TextView android:id="@+id/txtBoot" android:layout_width="match_parent" android:layout_height="40dp" android:text="(no file selected)" android:textColor="#AAAAAA" android:gravity="center_vertical" android:background="#222222" android:paddingStart="8dp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- RECOVERY Slot -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="4dp">
+            <Button android:id="@+id/btnRecovery" android:layout_width="110dp" android:layout_height="40dp" android:text="--RECOVERY" android:backgroundTint="#4A148C" android:textColor="#FFFFFF" android:textSize="10sp"/>
+            <TextView android:id="@+id/txtRecovery" android:layout_width="match_parent" android:layout_height="40dp" android:text="(no file selected)" android:textColor="#AAAAAA" android:gravity="center_vertical" android:background="#222222" android:paddingStart="8dp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- SUPER Slot -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="4dp">
+            <Button android:id="@+id/btnSuper" android:layout_width="110dp" android:layout_height="40dp" android:text="--SUPER" android:backgroundTint="#4A148C" android:textColor="#FFFFFF" android:textSize="11sp"/>
+            <TextView android:id="@+id/txtSuper" android:layout_width="match_parent" android:layout_height="40dp" android:text="(no file selected)" android:textColor="#AAAAAA" android:gravity="center_vertical" android:background="#222222" android:paddingStart="8dp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- DTBO Slot -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="4dp">
+            <Button android:id="@+id/btnDtbo" android:layout_width="110dp" android:layout_height="40dp" android:text="--DTBO" android:backgroundTint="#4A148C" android:textColor="#FFFFFF" android:textSize="11sp"/>
+            <TextView android:id="@+id/txtDtbo" android:layout_width="match_parent" android:layout_height="40dp" android:text="(no file selected)" android:textColor="#AAAAAA" android:gravity="center_vertical" android:background="#222222" android:paddingStart="8dp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- VBMETA Slot -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="4dp">
+            <Button android:id="@+id/btnVbmeta" android:layout_width="110dp" android:layout_height="40dp" android:text="--VBMETA" android:backgroundTint="#4A148C" android:textColor="#FFFFFF" android:textSize="10sp"/>
+            <TextView android:id="@+id/txtVbmeta" android:layout_width="match_parent" android:layout_height="40dp" android:text="(no file selected)" android:textColor="#AAAAAA" android:gravity="center_vertical" android:background="#222222" android:paddingStart="8dp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- PIT Slot -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <Button android:id="@+id/btnPit" android:layout_width="110dp" android:layout_height="40dp" android:text="--pit" android:backgroundTint="#00838F" android:textColor="#FFFFFF" android:textSize="11sp"/>
+            <TextView android:id="@+id/txtPit" android:layout_width="match_parent" android:layout_height="40dp" android:text="(no file selected)" android:textColor="#AAAAAA" android:gravity="center_vertical" android:background="#222222" android:paddingStart="8dp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- Console Log Box -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="#0A0A0A"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/txtConsole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Freyja engine ready.\nFreyja Native Engine Active\n"
+                android:textColor="#00FF00"
+                android:textSize="11sp"
+                android:fontFamily="monospace" />
+        </ScrollView>
+
+        <!-- Flash Progress Bar -->
+        <ProgressBar
+            android:id="@+id/progressFlash"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:max="100"
+            android:progress="0" />
+    </LinearLayout>
+
+    <!-- Flash Options -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp">
+
+        <CheckBox
+            android:id="@+id/chkNoReboot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No reboot"
+            android:textColor="#AAAAAA"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/chkVerbose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Verbose"
+            android:textColor="#AAAAAA"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- Bottom Action Control Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnDetect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DETECT"
+            android:textSize="11sp"
+            android:backgroundTint="#00838F" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="START"
+            android:textSize="11sp"
+            android:backgroundTint="#2E7D32" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RESET"
+            android:textSize="11sp"
+            android:backgroundTint="#EF6C00" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="EXIT"
+            android:textSize="11sp"
+            android:backgroundTint="#C62828" />
+    </LinearLayout>
+
+</LinearLayout>

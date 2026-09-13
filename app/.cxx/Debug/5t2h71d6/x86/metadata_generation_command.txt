@@ -1,0 +1,19 @@
+                        -H/storage/internal_new/project/Freyja/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=26
+-DANDROID_PLATFORM=android-26
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/opt/ndk/android-ndk-r29
+-DCMAKE_ANDROID_NDK=/opt/ndk/android-ndk-r29
+-DCMAKE_TOOLCHAIN_FILE=/opt/ndk/android-ndk-r29/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/opt/cmake/cmake-3.22.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/storage/internal_new/project/Freyja/app/build/intermediates/cxx/Debug/5t2h71d6/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/storage/internal_new/project/Freyja/app/build/intermediates/cxx/Debug/5t2h71d6/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-B/storage/internal_new/project/Freyja/app/.cxx/Debug/5t2h71d6/x86
+-GNinja
+-DANDROID_STL=c++_shared
+                        Build command args: []
+                        Version: 2

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Dark Circular Background -->
+    <path
+        android:fillColor="#1E1E2E"
+        android:pathData="M12,2A10,10 0 1 0 12,22A10,10 0 1 0 12,2Z" />
+    <!-- Cyan Lightning Bolt (Odin/Flashing Vibe) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M13.5,6.5 L7.5,14.5 L12,14.5 L10.5,19.5 L16.5,11.5 L12,11.5 Z" />
+</vector>

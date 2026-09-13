@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/storage/internal_new/project/Freyja/app/.cxx/Debug/0tqe4s1j/armeabi-v7a",
+  "command": "/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/bin/clang++ --target=armv7-none-linux-androideabi23 --sysroot=/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/sysroot -Dfreyja_EXPORTS -I/storage/internal_new/project/Freyja/app/src/main/cpp/heimdall -I/storage/internal_new/project/Freyja/app/src/main/cpp/libpit -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC -std=c++17 -o CMakeFiles/freyja.dir/freyja-jni.cpp.o -c /storage/internal_new/project/Freyja/app/src/main/cpp/freyja-jni.cpp",
+  "file": "/storage/internal_new/project/Freyja/app/src/main/cpp/freyja-jni.cpp"
+}
+]

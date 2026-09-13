@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/storage/internal_new/project/Freyja/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/opt/cmake/cmake-3.22.1/bin/ninja",
+      "-C",
+      "/storage/internal_new/project/Freyja/app/.cxx/Debug/0tqe4s1j/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/opt/cmake/cmake-3.22.1/bin/ninja",
+    "-C",
+    "/storage/internal_new/project/Freyja/app/.cxx/Debug/0tqe4s1j/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "freyja::@6890427a1f51a3e7e1df": {
+      "artifactName": "freyja",
+      "abi": "x86_64",
+      "output": "/storage/internal_new/project/Freyja/app/build/intermediates/cxx/Debug/0tqe4s1j/obj/x86_64/libfreyja.so",
+      "runtimeFiles": []
+    }
+  }
+}

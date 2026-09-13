@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/storage/internal_new/project/Freyja/app/.cxx/Debug/5t2h71d6/x86",
+  "command": "/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/bin/clang++ --target=i686-none-linux-android26 --sysroot=/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/sysroot -Dfreyja_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/freyja.dir/freyja-jni.cpp.o -c /storage/internal_new/project/Freyja/app/src/main/cpp/freyja-jni.cpp",
+  "file": "/storage/internal_new/project/Freyja/app/src/main/cpp/freyja-jni.cpp"
+}
+]

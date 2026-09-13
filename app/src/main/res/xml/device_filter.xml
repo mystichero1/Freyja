@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Samsung Electronics Co., Ltd (Download Mode: Vendor ID 1256 / 0x04E8) -->
+    <usb-device vendor-id="1256" />
+</resources>

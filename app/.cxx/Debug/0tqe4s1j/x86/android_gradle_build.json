@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/storage/internal_new/project/Freyja/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/opt/cmake/cmake-3.22.1/bin/ninja",
+      "-C",
+      "/storage/internal_new/project/Freyja/app/.cxx/Debug/0tqe4s1j/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/opt/cmake/cmake-3.22.1/bin/ninja",
+    "-C",
+    "/storage/internal_new/project/Freyja/app/.cxx/Debug/0tqe4s1j/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "freyja::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "freyja",
+      "output": "/storage/internal_new/project/Freyja/app/build/intermediates/cxx/Debug/0tqe4s1j/obj/x86/libfreyja.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/bin/clang.lld",
+      "cppCompilerExecutable": "/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

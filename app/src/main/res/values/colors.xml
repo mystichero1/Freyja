@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core brand -->
+    <color name="colorPrimary">#0B0F1A</color>
+    <color name="colorPrimaryDark">#05070C</color>
+    <color name="colorAccent">#00E5FF</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_top">#141B2E</color>
+    <color name="bg_bottom">#05070C</color>
+    <color name="panel_bg">#1B2338</color>
+    <color name="panel_bg_alt">#212B45</color>
+    <color name="panel_border">#3A4668</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F2F5FF</color>
+    <color name="text_secondary">#9AA6C4</color>
+    <color name="text_muted">#5C6787</color>
+
+    <!-- Title gradient stops -->
+    <color name="title_start">#00E5FF</color>
+    <color name="title_end">#7C4DFF</color>
+
+    <!-- LED -->
+    <color name="led_green_core">#39FF6A</color>
+    <color name="led_green_glow">#1AAF43</color>
+    <color name="led_red_core">#FF3B5C</color>
+    <color name="led_red_glow">#B0102C</color>
+    <color name="led_off_core">#4B5570</color>
+    <color name="led_off_glow">#2A3149</color>
+
+    <!-- Slot accent colors -->
+    <color name="slot_ap">#00E5FF</color>
+    <color name="slot_bl">#B388FF</color>
+    <color name="slot_cp">#FF9100</color>
+    <color name="slot_csc">#FFD600</color>
+    <color name="slot_home_csc">#FF4081</color>
+    <color name="slot_pit">#69F0AE</color>
+
+    <!-- Action buttons -->
+    <color name="action_detect">#00B8D4</color>
+    <color name="action_start_start">#00E676</color>
+    <color name="action_start_end">#00B34A</color>
+    <color name="action_reset">#FFAB00</color>
+    <color name="action_exit">#FF3D57</color>
+
+    <!-- Log terminal -->
+    <color name="log_bg">#0A0E17</color>
+    <color name="log_text">#39FF6A</color>
+    <color name="log_border">#22304A</color>
+
+    <!-- Progress -->
+    <color name="progress_track">#1B2338</color>
+    <color name="progress_start">#00E5FF</color>
+    <color name="progress_end">#7C4DFF</color>
+</resources>

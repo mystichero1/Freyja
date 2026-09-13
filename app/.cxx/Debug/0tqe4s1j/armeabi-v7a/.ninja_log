@@ -1,0 +1,8 @@
+# ninja log v6
+970	1101	1789215375006161656	/storage/internal_new/project/Freyja/app/build/intermediates/cxx/Debug/0tqe4s1j/obj/armeabi-v7a/libfreyja.so	7e6b5b10a361a0e2
+26	968	1789215374062161656	CMakeFiles/freyja.dir/freyja-jni.cpp.o	7e065a5fc234ad60
+14	30	1789216114990161700	/storage/internal_new/project/Freyja/app/.cxx/Debug/0tqe4s1j/armeabi-v7a/CMakeFiles/cmake.verify_globs	5cb204f454464bee
+136	1130	1789216115110161700	CMakeFiles/freyja.dir/freyja-jni.cpp.o	40c9e4b2be55c685
+1130	1315	1789216116106161700	/storage/internal_new/project/Freyja/app/build/intermediates/cxx/Debug/0tqe4s1j/obj/armeabi-v7a/libfreyja.so	7e6b5b10a361a0e2
+14	37	1789230443717460782	/storage/internal_new/project/Freyja/app/.cxx/Debug/0tqe4s1j/armeabi-v7a/CMakeFiles/cmake.verify_globs	5cb204f454464bee
+14	32	1789231582289460850	/storage/internal_new/project/Freyja/app/.cxx/Debug/0tqe4s1j/armeabi-v7a/CMakeFiles/cmake.verify_globs	5cb204f454464bee
