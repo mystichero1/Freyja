@@ -10,7 +10,7 @@
 Normally when you try flashing a custom recovery or even a custom super and boot we need to have a **PC** running the operating system first off **Windows** and later on **Linux** since we've implemented the code of **Heimdall** into our **own application** you only need a other **android device** with a correct **cable** connection to eachother.
 
 ## Key features of Freyja
-**True Mobile Independence:** Fix or flash Samsung devices on the go using just a phone-to-phone USB-OTG connection.
+**True Mobile Independence:** Fix or flash Samsung devices on the go using just a phone-to-phone USB-OTG connection. 
 **Native C++ Backend:** Executes fast, low-level partition data transfers and binary parsing.
 **Comprehensive Partition Slots:** Dedicated support for --BOOT, --RECOVERY, --SUPER, --DTBO, --VBMETA, and --PIT.
 **Advanced Control Toggles:** Built-in Verbose mode for real-time debugging logs and a No reboot safety option.
