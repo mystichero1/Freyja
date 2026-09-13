@@ -30,3 +30,6 @@ This tool interacts **directly** with **critical low-level device partitions**. 
 ## Images
 ## app icon
 ![App Icon](images/app-icon.jpg)
+## screenshots
+![In App Warning](images/in-app-warning.jpg)
+![Main UI](images/main-ui.jpg)
