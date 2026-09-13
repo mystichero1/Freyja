@@ -26,3 +26,7 @@ luk1337 and Benjamin-Dobell: [Heimdall](https://github.com/Benjamin-Dobell/Heimd
 
 ## Disclaimer
 This tool interacts **directly** with **critical low-level device partitions**. Flashing **custom binaries** carries **inherent risks** of data loss or bricking. Use with **caution**, **know** what you are flashing, and always **back up** your data.
+
+## Images
+## app icon
+![App Icon](images/app-icon.jpg)
